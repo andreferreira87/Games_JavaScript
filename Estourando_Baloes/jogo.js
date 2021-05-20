@@ -75,6 +75,7 @@ function estourar(e){
 
 	var id_balao = e.id;
 
+	document.getElementById(id_balao).setAttribute("onclick","")
 	document.getElementById(id_balao).src = 'imagens/balao_azul_pequeno_estourado.png';
 
 	pontuacao(-1);
@@ -99,7 +100,7 @@ function pontuacao(acao){
 
 function situacao_jogo(baloes_inteiros){
 	if (baloes_inteiros == 0) {
-		alert('Parabéns, você conseguiu estourar todos os balões a tempo')
+		alert('Parabéns, você conseguiu estourar todos os balões a tempo.')
 		parar_jogo();
 	}
 }
