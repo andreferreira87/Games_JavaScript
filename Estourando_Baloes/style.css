@@ -1,0 +1,32 @@
+body{
+    background: rgb(98, 112, 82);
+}
+
+p{
+    margin-top: 200px;
+}
+
+h1, select{
+    color: aqua;
+    background: black;
+    padding-inline-end: 100px;
+    margin: 0px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.alinhar{
+    float:left; 
+    width:auto; 
+    height:500px; 
+    background: #FFF; 
+    border: solid 1px #A2A2A2;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.alinhar_cenario{
+    margin-top: 200px;
+}
